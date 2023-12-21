@@ -3,8 +3,8 @@
   "version": "1.6.0",
   "private": true,
   "description": "This plugin allows for the use of the SerpApi search engine",
-  "homepage": "https://github.com/lobehub/chat-plugin-search-engine",
-  "repository": "https://github.com/lobehub/chat-plugin-search-engine.git",
+  "homepage": "https://github.com/Yari55/chat-plugin-search-engine",
+  "repository": "https://github.com/Yari55/chat-plugin-search-engine.git",
   "scripts": {
     "build": "father build",
     "ci": "npm run lint && npm run type-check",
