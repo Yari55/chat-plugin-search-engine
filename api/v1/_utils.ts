@@ -9,7 +9,7 @@ const fetchResult = async (args: { query: string }, settings: Settings): Promise
   const { default: querystring } = await import('query-string');
 
   const params = {
-    api_key: 'Ee67b4c94393bd6d29892759a35b0b1e3834dd22baa7bf6fb14312d27fd61115',
+    api_key: apiKey,
     engine: 'google_scholar',
     hl: 'en',
     q: args.query,
