@@ -4,12 +4,12 @@ import { Settings } from './_types';
 const BASE_URL = 'https://serpapi.com/search';
 
 const fetchResult = async (args: { query: string }, settings: Settings): Promise<Result> => {
-  const apiKey = 'Ee67b4c94393bd6d29892759a35b0b1e3834dd22baa7bf6fb14312d27fd61115';
+  const apiKey = settings.SERPAPI_API_KEY;
 
   const { default: querystring } = await import('query-string');
 
   const params = {
-    api_key: apiKey,
+    api_key: 'Ee67b4c94393bd6d29892759a35b0b1e3834dd22baa7bf6fb14312d27fd61115',
     engine: 'google_scholar',
     hl: 'en',
     q: args.query,
