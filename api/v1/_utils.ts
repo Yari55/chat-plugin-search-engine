@@ -11,10 +11,7 @@ const fetchResult = async (args: { query: string }, settings: Settings): Promise
   const params = {
     api_key: apiKey,
     engine: 'google_scholar',
-    gl: 'cn',
-    google_domain: 'google.com',
-    hl: 'zh-cn',
-    location: 'China',
+    hl: 'en',
     q: args.query,
   };
   const query = querystring.stringify(params);
